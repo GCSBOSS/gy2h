@@ -1,0 +1,27 @@
+{
+  "name": "gy2h",
+  "version": "0.0.2",
+  "description": "A html templating system that simply evals mustached code while creating variables from yaml files.",
+  "main": "./lib/index.js",
+  "bin": {
+    "gy2h-service": "./bin/gy2h-service.js",
+    "gy2h": "./bin/gy2h.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "yaml",
+    "templating",
+    "mustache",
+    "server",
+    "http"
+  ],
+  "author": "Guill <gcsboss@gmail.com>",
+  "license": "ISC",
+  "preferGlobal": true,
+  "dependencies": {
+    "node-yaml": "^3.1.1"
+  }
+}
