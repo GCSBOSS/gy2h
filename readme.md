@@ -14,7 +14,7 @@ In your project directory, create a YAML file with the name you want. I will cal
 
 ##### Step 2
 In `settings.yml`, write the following content:
-```
+```yaml
 sourceDir: ../yml
 templatesDir: ../html
 port: 8001
@@ -26,7 +26,7 @@ port: 8001
 
 ##### Step 3
 In source directory, create a file named `.yml` (that's right) with the following content:
-```
+```yaml
 title: My Awesome Title
 description: My Cool description
 content: My cool content
@@ -35,7 +35,7 @@ template: page
 
 ##### Step 4
 In template directory, create a file named `page.html` with the following content:
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -52,9 +52,9 @@ In template directory, create a file named `page.html` with the following conten
 
 ##### Step 5
 Install the server as a service with the following comands:
-```
+```bash
 npm install -g gy2h
-gy2h install my-project "/absolute/path/to/my/settings.yml"
+gy2h-service install my-project "/absolute/path/to/my/settings.yml"
 ```
 
 ##### Step 6
