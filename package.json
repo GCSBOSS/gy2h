@@ -23,5 +23,12 @@
   "preferGlobal": true,
   "dependencies": {
     "node-yaml": "^3.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/GCSBOSS/gy2h/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GCSBOSS/gy2h.git"
   }
 }
