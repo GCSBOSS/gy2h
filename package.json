@@ -1,6 +1,6 @@
 {
   "name": "gy2h",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A html templating system that simply evals mustached code while creating variables from yaml files.",
   "main": "./lib/index.js",
   "bin": {
